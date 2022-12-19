@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="head">
+    <h1>Directives</h1>
+  </div>
+<div class="action">
+  <div class="radioBtns">
+    <h3>Select any one</h3>
+    <p>Normal Button</p><input name="options" type="radio" [value]="1" [checked]="true" (change)="onItemChange($event.target)"><br>
+    <p>One Click Button</p><input name="options" type="radio" [value]="2" (change)="onItemChange($event.target)"><br>
+    <p>Error Button</p><input name="options" type="radio" [value]="3" (change)="onItemChange($event.target)"><br>
+  </div>
+  <div class="displayBtn">
+    <h3>Hover this Button</h3>
+    <input type="button" [ngClass]="{'normal':normalButton,'oneclick':oneClickButton,'error':errorButton}" id="displayButton" value="Display">
+  </div>
+</div>
+  </div>
+<router-outlet></router-outlet>

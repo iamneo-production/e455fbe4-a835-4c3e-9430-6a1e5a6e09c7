@@ -1,0 +1,65 @@
+#displayButton{
+    padding: 20px;
+    color: white;
+}
+
+/* normal Button Style */
+
+.normal{
+    background: blue;
+}
+.normal:hover{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* one click Button Style */
+
+.oneclick{
+    background: green;
+}
+.oneclick:hover{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* error Button Style */
+
+.error{
+    background: maroon;
+}
+.error:hover{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.head{
+    display: flex;
+    background: wheat;
+    justify-content: center;
+    align-items: center;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.radioBtns{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.displayBtn{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
